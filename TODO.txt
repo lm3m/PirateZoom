@@ -1,0 +1,6 @@
+score upper right hand corner
+name game: priate run
+death: replace avatar with explosion and show score & game over
+levels: time based
+boss: bounces up and down and shoots things that follow you (fire)
+sound: music? or just effects?
