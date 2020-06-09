@@ -41,7 +41,7 @@ x1 = w
 y1 = 0
 
 score_font = pygame.font.SysFont(None, 24)
-score_color = (30, 73, 9)
+score_color = (255, 0, 0)
 current_score = 0
 
 class Enemy(pygame.sprite.Sprite):
