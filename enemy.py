@@ -6,8 +6,8 @@ from settings import config
 class Enemy(pygame.sprite.Sprite):
     def __init__(self):
         super(Enemy, self).__init__()
-        self.surf = pygame.Surface((20, 10))
-        self.surf.fill((0, 0, 0))
+        self.surf = pygame.Surface((15, 15))
+        pygame.draw.circle(self.surf, (255, 0, 0), (7, 7), 7)
         self.rect = self.surf.get_rect(
             center=(
                 random.randint(config.SCREEN_WIDTH + 20, config.SCREEN_WIDTH + 100),
